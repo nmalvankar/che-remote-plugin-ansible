@@ -15,7 +15,7 @@ FROM registry.access.redhat.com/ubi7/python-${PYTHON_VERSION}:latest
 USER root
 
 # ANSIBLE VERSION
-ENV ANSIBLE_VERSION 2.8.5
+ENV ANSIBLE_VERSION 2.9.27
 
 ENV HOME=/home/theia
 
